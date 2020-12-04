@@ -1,0 +1,35 @@
+Sam Lacet-Brown
+Sept 16th, 2020
+HW 1
+Comp 15
+To complie: "make char"
+To run: "./char"
+Acknowledgments: The lecture slides on copy constructors and assignment
+constructors, and my friend Tyler for listening to me complain. Also,
+I reused many concepts from Lab 1.
+Purpose: To create an array list that holds char elements.
+Files submitted:
+- README: this file
+- Makefile
+- testCharArrayList.cpp: Driver file which uses their functions
+- CharArrayList.cpp: Holds each CharArrayList function
+- CharArrayList.h: defines CharArrayList class and the scope of each function
+Testing:
+I began by creating the header file and defining the first constructor,
+which I then created an instance of. After that compiled, I added a print
+function, and my first push function, then tested printing the array
+after things were added. Next I added the clear and isEmpty functions, and
+checked that both worked as expected. I then added concatenation
+and checked that running it with an input of the test array would work.
+Once it was concatenated, I tested replacing the 1st element. I then removed
+the 0th element and printed it again. I then added testing to see if the size
+function was accurate directly after a print statement so they could be
+compared, then I tested the third constructor. With the newly created test
+array, I checked the first and last functions as well as the assignment
+operator. I then tested poping and pushing and made a third test array
+using the copy constructor. My final test array was created from a single
+element, and I used it to test insertion in order and accessing an index.
+Structures:
+ArrayList, a dynamic array which allows for adding/removing elements by copying
+the array's contents into a placeholder which is then copied back into
+the same memory location but with more space allocated.
